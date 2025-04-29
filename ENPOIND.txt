@@ -1,0 +1,27 @@
+//ENPOIND
+
+Mostrar usuarios
+metodo get = http://localhost:4000/api/usuarios
+
+mostrar usuario por id
+metodo get http://localhost:4000/api/usuarios/1
+
+eliminar usuario
+metodo delete http://localhost:4000/api/eliminar/user/1
+
+
+mostrar pais por id
+metodo get http://localhost:4000/api/pais/1
+
+agregar pais
+metodo post http://localhost:4000/api/agregar/pais
+
+json = 
+{
+"nombre": "Panama",
+"activo": true
+}
+
+eliminar pais
+metodo delete 
+http://localhost:4000/api/eliminar/pais/5
